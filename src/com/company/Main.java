@@ -21,13 +21,13 @@ public class Main {
 
         System.out.println(b);
         System.out.println(15 % 5);
-        enumTest(BusinessUnit.Pakistan);
+        enumTest(BusinessUnit.NO);
     }
 
     public static void enumTest(BusinessUnit businessUnit){
-        if(businessUnite == BusinessUnit.Pakistan)
+        if(businessUnit == BusinessUnit.Pakistan)
         	System.out.println("Pakistan");
         else
-	System.out.println("Invalid Option");
+	        System.out.println("Invalid Option");
     }
 }
