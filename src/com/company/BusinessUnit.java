@@ -3,6 +3,8 @@ package com.company;
 public enum BusinessUnit {
     NO,
     SE,
-    Pakistan
+    Pakistan,
+    America,
+    UK
 
 }
