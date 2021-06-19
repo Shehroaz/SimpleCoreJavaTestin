@@ -1,9 +1,6 @@
 package com.company;
 
-import java.sql.Timestamp;
 import java.text.MessageFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Main {
@@ -24,6 +21,10 @@ public class Main {
 
         System.out.println(b);
         System.out.println(15 % 5);
+        enumTest(BusinessUnit.Pakistan);
+    }
 
+    public static void enumTest(BusinessUnit businessUnit){
+        System.out.println(businessUnit);
     }
 }
