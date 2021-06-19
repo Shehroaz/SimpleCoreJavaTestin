@@ -25,6 +25,9 @@ public class Main {
     }
 
     public static void enumTest(BusinessUnit businessUnit){
-        System.out.println(businessUnit);
+        if(businessUnite == BusinessUnit.Pakistan)
+        	System.out.println("Pakistan");
+        else
+	System.out.println("Invalid Option");
     }
 }
