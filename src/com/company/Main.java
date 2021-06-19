@@ -14,7 +14,8 @@ public class Main {
         String req = MessageFormat.format(URI , 10);
         System.out.println(req);
         BusinessUnit b = BusinessUnit.CDDK;
-        String sp = "45_Shehroaz";
+       // sp stands for Super Power
+        String sp = "007_Israel";
 
         System.out.println(sp.substring(sp.indexOf('_') + 1));
 
