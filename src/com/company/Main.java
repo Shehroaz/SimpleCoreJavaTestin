@@ -13,7 +13,7 @@ public class Main {
         String URI = "http://localhost:8080/{0}";
         String req = MessageFormat.format(URI , 10);
         System.out.println(req);
-        BusinessUnit b = BusinessUnit.CDDK;
+        BusinessUnit b = BusinessUnit.NO;
        // sp stands for Super Power
         String sp = "007_Israel";
 
